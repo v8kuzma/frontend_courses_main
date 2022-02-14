@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Знакомство с HTML тегами Часть №3 (Формы)</title>
+</head>
+<body>
+   <form action="#" method="post" enctype="multipart/form-data">
+      <div>
+         <p>Имя</p>
+         <input placeholder="Имя" tabindex="1" name="username" type="text" />
+      </div>
+      <div>
+         <p>Пароль</p>
+         <input tabindex="2" name="userpass" type="password" />
+      </div>
+      <div>
+         <p>Телефон</p>
+         <input tabindex="3" name="userphone" type="tel" />
+      </div>
+      <div>
+         <p>Пол</p>
+         <div>
+            <input checked tabindex="4" name="gender" type="radio" value="male" /> Мужской
+         </div>
+         <div>
+            <input tabindex="4" name="gender" type="radio" value="female" /> Женский
+         </div>
+      </div>
+      <div>
+         <p>Имущество</p>
+         <div>
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes" /> Велик
+         </div>
+         <div>
+            <input tabindex="6" type="checkbox" name="car" value="yes" /> Машина
+         </div>
+         <div>
+            <input tabindex="7" disabled type="checkbox" name="house" value="yes" /> Дом
+         </div>
+      </div>
+      <div>
+         <p>Дополнительная информация</p>
+         <textarea tabindex="8" name="text"></textarea>
+      </div>
+      <div>
+         <p>Прикрепить фото</p>
+         <input name="userfoto" tabindex="9" type="file" />
+      </div>
+      <div>
+         <p>Любимый цвет</p>
+         <select tabindex="10" name="color">
+            <option value="red">Красный</option>
+            <option value="green">Зеленый</option>
+            <option selected value="yellow">Желтый</option>
+         </select>
+      </div>
+      <div>
+         <p>Действие</p>
+         <button abindex="11" type="submit">Отправить</button>
+         <button abindex="12" type="reset">Очистить</button>
+      </div>
+   </form>
+</body>
+</html>
