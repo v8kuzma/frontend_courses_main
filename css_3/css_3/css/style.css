@@ -75,14 +75,17 @@ max-height: 100px;
 }
 .five{
    display: inline;
-   margin: 0 100px 0 0;
+   margin: 0 100px 40px 0;
 
 }
 .six{
    display: inline;
-   margin: 30 0;
+   margin: 0 0 40px 0;
 
 }
 .seven{
    display: block;
+   margin: 40px 0 0 0;
+
+
 }
