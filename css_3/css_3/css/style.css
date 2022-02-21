@@ -84,8 +84,17 @@ max-height: 100px;
 
 }
 .seven{
-   display: block;
-   margin: 40px 0 0 0;
+   display: inline;
+   margin: 40px 200px 80px 35px;
 
+
+}
+.eight{
+   display: inline;
+}
+
+.nine{
+   display: block;
+   margin: 85px 0 0 0 ;
 
 }
