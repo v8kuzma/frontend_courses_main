@@ -71,7 +71,8 @@ max-height: 100px;
 }
 
 .four{
-   margin: 0 0 45px 0;
+   height: 60px;
+   margin: 0 0 20px 0;
 }
 .five{
    display: inline;
@@ -83,18 +84,27 @@ max-height: 100px;
    margin: 0 0 40px 0;
 
 }
+
+
+
+
 .seven{
-   display: inline;
-   margin: 40px 200px 80px 35px;
+display: inline-block;
+   padding: 40px 200px 80px 35px;
 
 
 }
 .eight{
-   display: inline;
+display: inline;
 }
+
+
+
 
 .nine{
    display: block;
+   height: 85px;
    margin: 85px 0 0 0 ;
+   
 
 }
